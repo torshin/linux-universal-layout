@@ -1,2 +1,6 @@
 gsettings set org.gnome.desktop.wm.keybindings switch-input-source "['<Alt>Shift_L']"
 
+gsettings set org.gnome.desktop.input-sources xkb-options "['grp:alt_shift_toggle', 'grp_led:scroll', 'lv3:switch']"
+
+
+https://askubuntu.com/a/1260256/535462
