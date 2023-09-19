@@ -1,0 +1,1 @@
+setxkbmap -layout "uni_fork(us_universal),uni_fork(ru_universal)" -option "" -option "grp_led:scroll,lv3:rwin_switch,grp:win_space_toggle" -print | xkbcomp -I"$HOME/.config/xkb" - "${DISPLAY%%.*}" -w 1
