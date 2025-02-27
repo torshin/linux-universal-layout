@@ -16,6 +16,7 @@ For example, if you use setxkbmap -layout br -variant abnt2 to setup your keyboa
 Pleasse notice, the file name matters, it should be named by keyboard-[layout]-[variant].conf
 The file name for this layout should be ~/.local/share/fcitx5/inputmethod/keyboard-br-abnt2.conf
 
+```
 [InputMethod]
 Name=br-abnt2
 Icon=input-keyboard
@@ -23,6 +24,7 @@ LangCode=pt_BR
 Addon=keyboard
 Configurable=True
 Label=br
+```
 
 The “Name=” section in the file doesn’t really matter, you can put anything meaningful to you. LangCode= and Label= also doesn’t really matter.
 
